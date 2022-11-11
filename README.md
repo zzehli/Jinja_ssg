@@ -20,3 +20,16 @@ Run with the example templates in the `hello_css` folder:
 ```
 jinjagenerator hello_css
 ```
+## Help
+The CLI program has a `--help` option:
+```
+(env) :~/project/static-site-generator$ jinjagenerator --help
+Usage: jinjagenerator [OPTIONS] DIRECTORY
+
+  Static Site Generator for Jinja templates
+
+Options:
+  -o, --output PATH  Output directory.
+  -v, --verbose      Print more output.
+  --help             Show this message and exit.
+```
