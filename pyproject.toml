@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jinjagenerator"
+version = "0.1.0"
+dependencies = [
+    "click",
+    "jinja2"
+]
+requires-python = ">=3.8"
+
+[project.scripts]
+jinjagenerator = "jinjagenerator.__main__:main"
+
+[tool.setuptools]
+packages = ["jinjagenerator"]
