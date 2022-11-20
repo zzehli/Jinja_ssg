@@ -1,5 +1,5 @@
 # Jinja Generator
-This is a python package that takes Jinja templates and output HTML files. Each input
+This is a python package that takes [Jinja templates](https://jinja.palletsprojects.com/en/3.1.x/) and output HTML files. Each input
 files (templates, static files and config files) are contained in a folder that the program will read in as a directory. The program can render multiple templates at once. The config file is a list of json object that can specify variables in Jinaja templates, output directories and filenames.
 
 ## Install the package
